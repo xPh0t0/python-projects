@@ -20,7 +20,7 @@ def main():
     file_to = input("Enter the full path to upload to dropbox: ")
 
     transferData.upload_file(file_from, file_to)
-    print("file has been moved !!!")
+    print("Your file has been successfully moved.")
 
 
 
